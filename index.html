@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mazda_Web_Lab</title>
+	<meta name="description" content="Офіційний імпортер і дистриб'ютор автомобілів Mazda в Україні, навчальний проект">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+			<div class="logo">
+				<img src="logo.png" alt="Mazda logo">
+			</div>
+			<label for="trigger">
+				<div class="burger_position">
+					<input type="checkbox" class="trigger" id="trigger">
+					<div class="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<span class="menu">Меню</span>
+					<nav class="navi">
+						<a href="#auto">Автомобілі</a>
+						<br>
+						<a href="#owners">Власникам</a>
+						<br>
+						<a href="#used">Автомобілі з пробігом</a>
+						<br>
+						<a href="#contacts">Контакти</a>
+					</nav>
+				</div>
+			</label>
+	</header>
+
+	<main>
+		<section>
+			<div class="main_photo">
+				<h2 class="slogon">Mazda - задоволення від керування</h2>
+			</div>
+		</section>
+
+		<section>
+			<h2 id="auto">Автомобілі</h2>
+			<div class="car">
+				<div>
+					<div class="assortment">
+						<img src="mazda 6.png" alt="mazda 6">
+						<p>Mazda 6</p>
+						<p>Ціна від 1 068 600 грн.</p>
+						<div class="details">
+							<p>Детально</p>
+						</div>
+						<p>Прайс-Лист</p>
+					</div>
+				</div>
+
+				<div>
+					<div class="assortment">
+						<img src="mazda mx5.png" alt="mazda mx5">
+						<p>Mazda MX-5</p>
+						<p>Ціна від 1 622 600 грн.</p>
+						<div class="details">
+							<p>Детально</p>
+						</div>
+						<p>Прайс-Лист</p>
+					</div>
+				</div>
+			</div>
+			<div class="car">
+				<div>
+					<div class="assortment">
+						<img src="mazda cx60.png" alt="mazda cx60">
+						<p>Mazda CX-60</p>
+						<p>Ціна від 1 862 900 грн.</p>
+						<div class="details">
+							<p>Детально</p>
+						</div>
+						<p>Прайс-Лист</p>
+					</div>
+				</div>
+				<div>
+					<div class="assortment">
+						<img src="mazda cx5.png" alt="mazda cx5">
+						<p>Mazda CX-5</p>
+						<p>Ціна від 1 175 000 грн.</p>
+						<div class="details">
+							<p>Детально</p>
+						</div>
+						<p>Прайс-Лист</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section>
+			<div class="title_text_2">
+				<h2 id="owners">Власникам</h2>
+			</div>
+			<div class="big_text">
+				<h3>В НАДІЙНИХ РУКАХ</h3>
+			</div>
+			<div class="text_position">
+				<div class="small_text">
+					<p>Відчуйте єдність з вашою Мazda. Наші досвідчені інженери і висококваліфіковані сервісні спеціалісти забезпечать високоякісний сервіс вашого автомобіля, щоб ваша Mazda була максимально захищена і завжди показувала найкращі показники продуктивності.</p>
+				</div>
+			</div>
+			<div class="big_text">	
+				<h3>ЗАХИСТІТЬ СВОЮ ІНВЕСТИЦІЮ</h3>
+			</div>
+			<div class="text_position">
+				<div class="small_text">
+					<p>Хто може доглядати за вашою Mazda краще ніж Mazda?</p>
+					<br>
+					<p>Підтримуючи своє авто в ідеальному технічному стані, ви можете не турбуватись про роботу всіх агрегатів автомобіля і сконцентруватись на насолоді від потужності, яка є складовою частиною вашої Mazda. Сертифіковані механіки Mazda постійно проходять навчання та безліч тестів для підтримки своєї кваліфікації і можуть надати найвищий рівень сервісу, щоб задовольнити всі ваші побажання.</p>
+				</div>
+			</div>
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/c2VpTSETPis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<section>
+			<div class="title_text_3">
+				<h2 id="used">Автомобілі з пробігом</h2>
+			</div>
+			<div class="form_title">
+				<h3>Оберіть модель</h3>
+			</div>
+			<br>
+			<form class="form">
+				<select name="Модель" id="">
+					<option value="6">6</option>
+					<option value="MX-5">MX-5</option>
+					<option value="CX-60">CX-60</option>
+					<option value="CX-5">CX-5</option>
+				</select>
+			</form>
+			<br>
+			<div class="form_title">
+				<h3>Оберіть місто</h3>
+			</div>
+			<br>
+			<form class="form">
+				<select name="Місто" id="">
+					<option value="Lviv">Львів</option>
+					<option value="Kyiv">Київ</option>
+					<option value="Odesa">Одеса</option>
+				</select>
+			</form>
+			<br>
+			<div class="form_title">
+				<h3>Напишіть нам</h3>
+			</div>
+			<form class="contact_us">
+				<input placeholder="Ім'я" type="text">
+				<br>
+				<input placeholder="Email" type="email">
+				<br>
+				<input placeholder="Тема" type="text">
+				<br>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+				<br>
+				<button>Відправити</button>
+				<br>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<div class="logo">
+			<img src="logo.png" alt="Mazda logo">
+		</div>
+		<div class="end">
+			<h2 id="contacts">Контакти:</h2>
+			<nav>
+				<div>
+					<a href="https://www.facebook.com/mazda.ukraine">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="white" d="M15.12 5.32H17V2.14A26.11 26.11 0 0 0 14.26 2c-2.72 0-4.58 1.66-4.58 4.7v2.62H6.61v3.56h3.07V22h3.68v-9.12h3.06l.46-3.56h-3.52V7.05c0-1.05.28-1.73 1.76-1.73Z"/></svg>
+						<p>Facebook</p>
+					</a>
+				</div>
+				<br>
+				<div>
+					<a href="https://www.youtube.com/MazdaUA">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32"><path fill="white" d="M29.41 9.26a3.5 3.5 0 0 0-2.47-2.47C24.76 6.2 16 6.2 16 6.2s-8.76 0-10.94.59a3.5 3.5 0 0 0-2.47 2.47A36.13 36.13 0 0 0 2 16a36.13 36.13 0 0 0 .59 6.74a3.5 3.5 0 0 0 2.47 2.47c2.18.59 10.94.59 10.94.59s8.76 0 10.94-.59a3.5 3.5 0 0 0 2.47-2.47A36.13 36.13 0 0 0 30 16a36.13 36.13 0 0 0-.59-6.74ZM13.2 20.2v-8.4l7.27 4.2Z"/></svg>
+						<p>YouTube</p>
+					</a>
+				</div>
+				<br>
+				<div>
+					<a href="https://www.instagram.com/mazda_ua/">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 15 15"><path fill="white" fill-rule="evenodd" d="M12.91 12.909c.326-.327.582-.72.749-1.151c.16-.414.27-.886.302-1.578c.032-.693.04-.915.04-2.68c0-1.765-.008-1.987-.04-2.68c-.032-.692-.142-1.164-.302-1.578a3.185 3.185 0 0 0-.75-1.151a3.187 3.187 0 0 0-1.151-.75c-.414-.16-.886-.27-1.578-.302C9.487 1.007 9.265 1 7.5 1c-1.765 0-1.987.007-2.68.04c-.692.03-1.164.14-1.578.301a3.2 3.2 0 0 0-1.151.75a3.2 3.2 0 0 0-.75 1.151c-.16.414-.27.886-.302 1.578C1.007 5.513 1 5.735 1 7.5c0 1.765.007 1.987.04 2.68c.03.692.14 1.164.301 1.578c.164.434.42.826.75 1.151c.325.33.718.586 1.151.75c.414.16.886.27 1.578.302c.693.031.915.039 2.68.039c1.765 0 1.987-.008 2.68-.04c.692-.03 1.164-.14 1.578-.301a3.323 3.323 0 0 0 1.151-.75ZM2 6.735v1.53c-.002.821-.002 1.034.02 1.5c.026.586.058 1.016.156 1.34c.094.312.199.63.543 1.012c.344.383.675.556 1.097.684c.423.127.954.154 1.415.175c.522.024.73.024 1.826.024H8.24c.842.001 1.054.002 1.526-.02c.585-.027 1.015-.059 1.34-.156c.311-.094.629-.2 1.011-.543c.383-.344.556-.676.684-1.098c.127-.422.155-.953.176-1.414C13 9.247 13 9.04 13 7.947v-.89c0-1.096 0-1.303-.023-1.826c-.021-.461-.049-.992-.176-1.414c-.127-.423-.3-.754-.684-1.098c-.383-.344-.7-.449-1.011-.543c-.325-.097-.755-.13-1.34-.156A27.29 27.29 0 0 0 8.24 2H7.057c-1.096 0-1.304 0-1.826.023c-.461.021-.992.049-1.415.176c-.422.128-.753.301-1.097.684c-.344.383-.45.7-.543 1.012c-.098.324-.13.754-.156 1.34c-.022.466-.022.679-.02 1.5ZM7.5 5.25a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5ZM4.25 7.5a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0Zm6.72-2.72a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5Z" clip-rule="evenodd"/></svg>
+						<p>Instagram</p>
+					</a>
+				</div>
+			</div>
+		</nav>
+	</footer>
+	
+
+</body>
+</html>
